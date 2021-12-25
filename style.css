@@ -167,16 +167,7 @@ font-size: 20px;
   
 }
 
-.section-title{
-  font-size: 55px;
-  color: #024e76;
-  margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
-  display: inline-block;
-  border-bottom: 3px solid;
-  display: flex;
-  justify-content: center;
-}
+
 
 .primary-border{
   border-color: #fce138;
