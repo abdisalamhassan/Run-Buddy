@@ -1,8 +1,11 @@
 <!DOCTYPE html>
-<link rel="stylesheet" href="/Users/abdisalamhassan/Desktop/Coding/Run-buddy/style.css" />
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css" />
+<title>  Run-buddy</title>
 <html lang ="en">
 <header>
-    <meta charset= "UTF-8" />
     <h1> 
         <a href ="/">Run Buddy</a>        
     </h1>
@@ -27,7 +30,15 @@
 </header>
 
 <!-- hero/jumbotron -->
-<section>
+<section class="hero">
+  <div class="hero-cta">
+      <h2> Start Building Habits.</h2>
+      <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos blanditiis ea sunt est iusto, possimus, corrupti, voluptatibus molestias earum culpa ipsum atque nesciunt! Eligendi iure architecto fugiat quae. Sequi, consectetur.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet ea repudiandae cupiditate iste, at eos quis ex eaque totam, consectetur aperiam assumenda maxime perspiciatis aliquid corrupti modi quas molestias quia?
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam culpa unde consequuntur asperiores nisi minima quia eligendi est laborum eveniet libero explicabo quo, animi totam magnam modi deserunt suscipit assumenda?
+      </p>
+  </div>
   <div class= "hero-form">
   <div>
     <h3> Get Started Today!</h3>
@@ -51,11 +62,12 @@
     <label for= "trainer-no" >No</label> 
 </p>
 <p>
-  <label for "checkbox" >
-    I acknowledge that I am atleast 18 years old.
-  </label>
-  <input type= "checkbox" name="age-confirm" id="checkbox" />
-</p>
+  <p>
+    <span class="checkbox-wrapper">
+        <input type="checkbox" id="checkbox" name="age-confirm" />
+        <label for="checkbox">I acknowledge that I am at least 18 years of age</label>
+    </span>
+  </p>
   <button type= "submit">
     Get Running!
   </button>
@@ -64,18 +76,23 @@
 
 <!-- "what we do" section -->
 <section id = "what we do" class="intro">
-    <h2 class= "section-title primary-border"> What We Do</h2>
+  <div class="flex-row">
+    <h2 class= "section-title primary-border"> What We Do</h2> </div>
     <p>
       butcher selfies chambray shabby chic gentrify readymade yr Echo Park XOXO Tumblr normcore Banksy direct trade Blue Bottle chillwave you probably haven't heard of them single-origin coffee Vice fanny pack fixie Odd Future Austin fingerstache pickled twee synth Wes Anderson Thundercats viral bitters flannel meggings narwhal Marfa Schlitz sustainable Intelligentsia umami deep v craft 
     </p>
 </section>
 
-<!-- "what you" section -->
+<!-- "what you do" section -->
 <section id= "what-you-do" class= "steps">
-    <h2 class= "section-title secondary border"> What You Do</h2>
+  <div class="flex-row">
+    <h2 class= "section-title secondary border"> 
+      What You Do
+    </h2>
     <div>
       <img src="./assets/images/01-04-svgs/step-1.svg" alt= "step-1" />
-   <h3> Step 1:<span> Fill out the Form Above.</span></h3>
+   <h3> Step 1:
+     <span> Fill out the Form Above.</span></h3>
    <p> You're already here, so why not?</p>
     </div>
 
@@ -179,19 +196,12 @@
 
 <!-- footer -->
 <footer>
-
-    <h2> ❤️  Made with love by Run Ruddy </h2>
+  <footer>
+    <h2>❤️ Made with love by Run Buddy.</h2>
     <div>
-      <section class="hero">
-        <div class = "hero-cta">
-          <h2> Start Buiding Habits.</h2>
-          <p> seitan heirloom post-ironic pop-up iPhone mlkshk hella selfies fashion axe occupy readymade put a bird on it messenger bag Wes Anderson Schlitz plaid Bushwick church-key lo-fi skateboard slow-carb hashtag trust fund Williamsburg biodiesel fixie farm-to-table 8-bit banjo XOXO Banksy chillwave bicycle rights retro cliche tattooed bespoke irony mumblecore Shoreditch deep v polaroid McSweeney's bitters cray gentrify tofu Marfa you probably haven't heard of them yr banh mi asymmetrical art party selvage letterpress High Life. </p>
-        </div>
-        <h2 class="footer-title">
-          Privacy Policy
-        </h2>
-      </section>
-        <a href="Privacy Policy.html">Read Our Privacy Policy</a>
+        <a href="Privacy Policy.html" Policy.html>Read Our Privacy Policy</a><br />
         &copy; 2019 Run Buddy, Inc.
-      </div>
+    </div>
 </footer>
+</body>
+</html>
