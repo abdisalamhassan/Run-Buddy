@@ -14,6 +14,8 @@ body {
 header {
   padding: 20px 35px;
   background-color: #39a6b2;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 header h1 {
@@ -72,7 +74,7 @@ section {
 
 /* Hero Style Start */
 .hero {
-  background-image: url('../Run-Buddy/hero.jpg');
+  background-image: url('../Run-Buddy/assets/images/flipped-hero-image.jpg');
   height: 600px;
   background-size: cover;
   background-position: center;
@@ -94,9 +96,11 @@ section {
 }
 
 .hero-form h3 {
+  font-style: normal;
   font-size: 24px;
   margin: 0;
 }
+
 .hero-form p {
   margin: 5px 0 15px 0;
 }
@@ -129,7 +133,7 @@ section {
 
 .intro p {
   line-height: 1.7;
-  color: #39a6b2;
+  color: #021011;
   width: 80%;
   font-size: 20px;
   margin: 0 auto;
